@@ -21,7 +21,7 @@ bin/*
 Policyfile.lock.json
 
 # berks
-./vendor-cookbooks
+vendor-cookbooks/
 
 cookbooks/
 .DS_Store

@@ -7,7 +7,7 @@ This setup creates 3 vagrant boxes with 1 master and 2 slaves
 You need chefDK or chef installed as a gem to run this.
 To setup the cluster
   1. bundle install --path .bundle
-  2. bundle exec berks vendor cookbooks
+  2. bundle exec berks vendor ./vendor-cookbooks --delete
   3. vagrant up --provison
 
 To destroy the cluster
